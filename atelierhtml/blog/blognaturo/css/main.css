@@ -10,22 +10,6 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-h1 {color: green;
-  font size: 3em;
-  text-align: center;
-
-}
-
-p{color:grey
-  font size: 2em
-
-}
-
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -108,17 +92,57 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 /* start global classes*/
+
 .mainColor {
-  color: #
+  color: white;
 }
 
+.flex {
+  display: flex;
+}
+
+.tCenter {
+  text-align: center;
+}
+
+.font {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 1.5em;
+}
+
+.aside{
+  color: white;
+  font-size: 1em;
+}
 /* end glabal classes*/
 
 
 
 
 /* start common ruless*/
+
+body {
+  width: 100%;
+}
+
+h1 {
+  color: #01295F;
+  font-size: 5em;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+h2 {
+  color: #1A1F16;
+  font-size: 3em;
+}
+
 /* end common ruless*/
 
 
@@ -127,10 +151,76 @@ textarea {
 
 /* start header Style*/
 
+header {
+  background-image: url("../img/imagheader.jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+nav li {
+  color: white;
+}
+
+header ul{
+  display: flex;
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 4em;
+  color: #01295F;
+
+
+header section h1 {
+  font-size: 4em;
+  color: white;
+}
+
+aside{
+  color: white;
+  font-size: 2em;
+}
+
+
 /*end header style*/
 
 
 /* start main style*/
+
+text container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.presentation {
+   float: left;
+   width: 30%;
+   text-align: center;
+}
+
+.articles {
+  display: inline-block;
+  width: 70%;
+
+}
+
+.article {
+  width: 20%;
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.articles float {
+  justify-content: space-around;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
 
 /*end main style*/
 
