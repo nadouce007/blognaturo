@@ -167,11 +167,26 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
 }
 
-nav li {
+nav  {
   color: white;
+  display: flex;
+  justify-content: space-between;
+
+
 }
+nav ul{
+  width: 40%;
+  justify-content:space-around;
+}
+
+nav aside{
+  display: flex;
+  font-size: 1em;
+}
+
 
 header ul{
   display: flex;
@@ -193,8 +208,18 @@ aside{
   font-size: 2em;
 }
 
+nav ul li{
+  justify-content: space-around;
+  padding: 0;
+  border-radius: 2px;
+  text-align: center;
+  padding: .5em 1em;
+}
 
-
+nav aside a {
+  margin: 0.3%;
+  height: 30px;
+}
 
 /*end header style*/
 
